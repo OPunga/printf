@@ -20,13 +20,12 @@ int get_flag(char s, flags_t *f)
 			break;
 		case ' ':
 			f->space = 1;
-			i = 1;
-			break;
+			1 = 1;
+			breeak;
 		case '#':
 			f->hash = 1;
 			i = 1;
 			break;
 	}
-
 	return (i);
 }
